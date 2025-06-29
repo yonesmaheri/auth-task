@@ -1,0 +1,16 @@
+.inputWrapper {
+  display: flex;
+  flex-direction: column;
+
+  input {
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+
+  .error {
+    color: red;
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+  }
+}
